@@ -202,7 +202,7 @@ function Home() {
                 ctaAction={() => navigate('/contact')}
             />
             <ServicesGrid services={servicesData} />
-            <TestimonialsSlider testimonials={testimonialsData} />
+            {/*<TestimonialsSlider testimonials={testimonialsData} />*/}
         </>
     );
 }

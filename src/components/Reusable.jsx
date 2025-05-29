@@ -81,20 +81,9 @@ export const ServiceCard = ({ icon: Icon, title, description, features, price, c
                 </ul>
             )}
 
-            {price && (
-                <div className="text-3xl font-bold text-gray-100 mb-6">
-                    {price}
-                    <span className="text-lg font-normal text-gray-200">/month</span>
-                </div>
-            )}
+            
 
-            <button
-                onClick={onCtaClick}
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center group"
-            >
-                {ctaText}
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </button>
+            
         </div>
     );
 };

@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <footer className="bg-gray-900 text-gray-300 py-12">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 sm:gap-70 gap-8">
                         <div>
                             <h3 className="text-white font-semibold text-lg mb-4">
                                 Linked Work
@@ -18,7 +18,6 @@ const Footer = () => {
                                 Custom Solutions. Real Impact.
                             </p>
                         </div>
-                        
                         <div>
                             <h4 className="text-white font-semibold mb-4">Company</h4>
                             <ul className="space-y-2 text-sm">
