@@ -8,7 +8,7 @@ const projects = [
     },
     {
         id: 2,
-        title: 'Crew Capsules',
+        title: 'Pet Tales',
         description: 'Website for a new product launch. Increased website traffic by 60% and product inquiries by 20%.',
     },
     {
@@ -45,15 +45,15 @@ const Portfolio = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 {projects.map((project) => (
-                    <div key={project.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <div key={project.id} className="bg-transparent border border-gray-600 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                         <div className="p-6">
                             <div className="flex items-center mb-4">
-                                <div className="bg-indigo-100 text-indigo-800 rounded-full w-10 h-10 flex items-center justify-center mr-4">
+                                <div className="bg-indigo-200 text-indigo-800 rounded-full w-10 h-10 flex items-center justify-center mr-4">
                                     <span className="font-bold">P{project.id}</span>
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-900">{project.title}</h3>
+                                <h3 className="text-xl font-bold text-gray-400">{project.title}</h3>
                             </div>
-                            <p className="text-gray-600">{project.description}</p>
+                            <p className="text-gray-500">{project.description}</p>
                         </div>
                     </div>
                 ))}
