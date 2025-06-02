@@ -1,4 +1,5 @@
 // import { Brain, Cloud, CodeXml, Database, PhoneIcon, Smartphone, Star, Workflow } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import { HeroSection, ServicesGrid, TestimonialsSlider } from "./Reusable";
 
 // const servicesData = [
@@ -194,6 +195,8 @@ const testimonialsData = [
 ];
 
 function Home() {
+ const navigate = useNavigate();
+
     return (
         <>
             <HeroSection

@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div className="text-left sm:flex mb-12 sm:mt-22">
+            <div className="text-left sm:flex mt-16 mb-12 sm:mt-22">
                 <h1 className="text-4xl font-bold text-gray-100 mb-6">Get in Touch</h1>
                 <p className="text-lg text-gray-400 max-w-3xl mx-auto">
                     We're excited to hear from you! Whether you have a project in mind, need more information about our services, or just want to say hello, feel free to reach out. Our team is ready to assist you with any inquiries.

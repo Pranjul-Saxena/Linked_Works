@@ -81,9 +81,9 @@ export const ServiceCard = ({ icon: Icon, title, description, features, price, c
                 </ul>
             )}
 
-            
 
-            
+
+
         </div>
     );
 };
@@ -147,7 +147,7 @@ export const TestimonialsSlider = ({ testimonials, title = "What Our Clients Say
                         </blockquote>
 
                         <div className="text-center">
-                            
+
                             <div className="font-semibold text-gray-900 text-lg">
                                 {testimonials[currentIndex].name}
                             </div>

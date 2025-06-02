@@ -72,11 +72,22 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
-                        <Rocket className="w-8 h-8 text-blue-400" />
-                        <span className="text-2xl font-bold  bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                        {/* Custom LinkWorks Icon (Chain Link Style) */}
+                        <svg
+                            className="w-16 h-16"
+                            viewBox="0 0 40 40"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect x="4" y="12" width="14" height="6" rx="3" fill="#1A73E8" />
+                            <rect x="12" y="20" width="14" height="6" rx="3" fill="#34A853" />
+                        </svg>
+
+                        <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                             LinkedWorks
                         </span>
                     </Link>
+
 
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center space-x-8">
